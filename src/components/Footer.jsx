@@ -16,7 +16,7 @@ const Footer = () => {
                         <p>Brasil</p>
                     </div>
                     <div className="phone">
-                        <h4><FaPhone size={20} style={{ color: "#fff", marginRight: "2rem" }} />98464-1072</h4>
+                        <h4><FaPhone size={20} style={{ color: "#fff", marginRight: "2rem" }}/>98464-1072</h4>
                     </div>
                     <div className="email">
                         <h4><FaMailBulk size={20} style={{ color: "#fff", marginRight: "2rem" }} />vitor@email.com</h4>
@@ -28,9 +28,15 @@ const Footer = () => {
                     <p>Esse é o Vitor Marinho, CEO & Fundador da Agência VTR, 
                         eu gosto de fazer design e novos projetos.</p>
                     <div className="social">
-                        <FaFacebook size={20} style={{ color: "#fff", marginRight: "1rem" }} />
-                        <FaTwitter size={20} style={{ color: "#fff", marginRight: "1rem" }} />
-                        <FaLinkedin size={20} style={{ color: "#fff", marginRight: "1rem" }} />
+                        <a href="https://pt-br.facebook.com/" target="blank">
+                            <FaFacebook size={20} style={{ color: "#fff", marginRight: "1rem" }} />
+                        </a>
+                        <a href="https://x.com/" target="blank">
+                            <FaTwitter size={20} style={{ color: "#fff", marginRight: "1rem" }} />
+                        </a>
+                        <a href="https://br.linkedin.com/" target="blank">
+                            <FaLinkedin size={20} style={{ color: "#fff", marginRight: "1rem" }} />
+                        </a>
                     </div>
                 </div>
             </div>
